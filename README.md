@@ -1,0 +1,1 @@
+manage.py loaddata fixtures.json - inicjalizacja wstepnych planow
