@@ -15,4 +15,3 @@
  - /admin - admin panel
  - /upload - view for image upload
  - /list - list view of every image uploaded on a current profile
- - 
