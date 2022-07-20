@@ -10,3 +10,9 @@
     - image_url - image file
     - name - name of object
     - profile - pk of existing profile to connect image to the user
+
+## Endpoints available
+ - /admin - admin panel
+ - /upload - view for image upload
+ - /list - list view of every image uploaded on a current profile
+ - 
