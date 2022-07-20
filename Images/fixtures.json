@@ -1,0 +1,46 @@
+[
+    {
+        "model": "ImagesApp.size",
+        "pk": 1,
+        "fields": {
+            "height": 200
+        }
+    },
+    {
+        "model": "ImagesApp.size",
+        "pk": 2,
+        "fields": {
+            "height": 400
+        }
+    },
+    {
+        "model": "ImagesApp.plan",
+        "pk": 1,
+        "fields": {
+            "name": "Basic",
+            "sizes": [1],
+            "link_to_original": "False",
+            "expiring_link": "False"
+        }
+    },
+    {
+        "model": "ImagesApp.plan",
+        "pk": 2,
+        "fields": {
+            "name": "Premium",
+            "sizes": [1, 2],
+            "link_to_original": "True",
+            "expiring_link": "False"
+        }
+    },
+    {
+        "model": "ImagesApp.plan",
+        "pk": 3,
+        "fields": {
+            "name": "Enterprise",
+            "sizes": [1, 2],
+            "link_to_original": "True",
+            "expiring_link": "True"
+        }
+    }
+]
